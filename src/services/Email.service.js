@@ -4,7 +4,7 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 
-const redisClient = require('./redis.service')
+const redisClient = require('./Redis.service')
 
 // Tạo transporter để gửi email OTP
 const transporter = nodemailer.createTransport({
